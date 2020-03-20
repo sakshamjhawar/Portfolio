@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- HTML Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saksham Jhawar</title>
+    <meta
+      name="description"
+      content="Saksham Jhawar, here to build softwares and drink beers!"
+    />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Saksham Jhawar" />
+    <meta
+      itemprop="description"
+      content="Saksham Jhawar, here to build softwares and drink beers!"/>
+    <script src="./js/index.js" defer></script>
+  </head>
+
+  <body>
+    <!-- ***** Navigation ***** -->
+
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="navigation__button">
+        <span class="navigation__icon" aria-label="toggle navigation menu"
+          >&nbsp;</span
+        >
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav" role="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#sticky" class="navigation__link">Work</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#popup" class="navigation__link">Hire Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#footer" class="navigation__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- ***** Header ***** -->
+
+    <header class="header" role="banner" id="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary"><i>Namaste!</i><br><i>I'm</i> <b>Saksham</b>,</h1>
+        <p class="header__description">
+          A Software Engineering Enthusiast
+        </p>
+        <a href="#popup" class="btn btn__hire" id="hire"
+          >Hire Me &nbsp;&rarr;</a
+          >
+      </div>
+    </header>
+
+    <!-- ***** Main ***** -->
+
+    <main role="main">
+
+      <section class="about" id="about">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">About Me</h2>
+        </div>
+        <p class="intro-text">
+          My name is Saksham Jhawar. I am student at Arizona State University 
+          pursuing a Master's of Science in Computer Software Engineering.  I 
+          like to call myself a programmer, a chef and a traveler. I moved to 
+          Tempe, Arizona in 2019. I like to code and shoot videos. My typical 
+          Friday Night involves playing Tennis and cracking open some cold ones!
+        </p>
+      </section>
+
+
+      <section>
+        <div class="u-text-center">
+          <h2 class="heading-secondary" id="sticky">My Projects include</h2>
+        </div>
+        <ul class="sticky">
+          <li>
+            <a href="#">
+            <h2>Title #1</h2>
+            <p>Text Content #1</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <h2>Title #2</h2>
+            <p>Text Content #2</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <h2>Title #3</h2>
+            <p>Text Content #3</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <h2>Title #4</h2>
+            <p>Text Content #4</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <h2>Title #5</h2>
+            <p>Text Content #5</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+
+      <!-- <section class="work" id="work">
+        <div class="u-text-center">
+          <h2 class="heading-secondary">What I bring with me</h2>
+        </div>
+      </section> -->
+
+      <!-- ***** Section Craft ***** -->
+
+      <section class="craft">
+        <div class="u-text-center">
+          <h2 class="heading-secondary" id="skills">What comes free with me</h2>
+          <p class="intro-text">
+            Witty sentence on saving money
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="craft__item">
+            <img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
+            <h3 class="heading-tertiary">Front-end</h3>
+            <p class="craft__description">
+              List of technologies
+            </p>
+          </div>
+
+          <div class="craft__item hack"></div>
+
+          <div class="craft__item">
+            <img src="./img/browser-26.svg" alt="Server" class="craft__img" />
+            <h3 class="heading-tertiary">Back-end</h3>
+            <p class="craft__description">
+              List of technologies
+            </p>
+          </div>
+
+          <div class="craft__item hack"></div>
+
+          <div class="craft__item">
+            <img src="./img/browser-26.svg" alt="Server" class="craft__img" />
+            <h3 class="heading-tertiary">Tools</h3>
+            <p class="craft__description">
+              List of technologies
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="work">
+        <img src="./img/609732.svg" alt="" class="work__construction" />
+          <a href="#popup" class="btn btn--hire">Hire Me &nbsp;&rarr;</a>
+      </section> -->
+
+    </main>
+
+
+    <footer class="footer" id="footer">
+      <nav>
+        <ul class="footer__social-links">
+          <li class="footer__social-link">
+            <a href="https://www.facebook.com/sj.sakshamjhawar" target="_blank" class="fa fa-facebook"></a>
+          </li>
+          <li class="footer__social-link">
+            <a href="https://twitter.com/sjsakshamjhawar" target="_blank" class="fa fa-twitter"></a>
+          </li>
+          <li class="footer__social-link">
+            <a href="https://www.linkedin.com/in/sakshamjhawar" target="_blank" class="fa fa-linkedin"></a>
+          </li>
+          <li class="footer__social-link">
+            <a href="https://github.com/sakshamjhawar" target="_blank" class="fa fa-github"></a>
+          </li>
+          <li class="number">(+1) 602-587-6240</li>
+          <li>
+            <a href="mailto:sketchtosaksham@gmail.com" class="number"
+              >sketchtosaksham@gmail.com</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    
+
+    <!-- ***** Popup ***** -->
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__right">
+          <a href="#!" class="popup__close">&times;</a>
+          <div class="popup__top">
+            <h2 class="heading-secondary u-text-center">Here's my Résumé</h2>
+            <div class="fa fa-file-text"></div>
+            <div class="popup__buttons">
+              <a href="./img/extras/resumedownload.pdf" download="Resume " class="btn">Download</a>
+            </div>
+          </div>
+          <div class="popup__contact-info">
+            <nav>
+              <ul class="footer__social-links">
+                <li class="footer__social-link">
+                  <a href="https://www.facebook.com/sj.sakshamjhawar" target="_blank" class="fa fa-facebook"></a>
+                </li>
+                <li class="footer__social-link">
+                  <a href="https://twitter.com/sjsakshamjhawar" target="_blank" class="fa fa-twitter"></a>
+                </li>
+                <li class="footer__social-link">
+                  <a href="https://www.linkedin.com/in/sakshamjhawar" target="_blank" class="fa fa-linkedin"></a>
+                </li>
+                <li class="footer__social-link">
+                  <a href="https://github.com/sakshamjhawar" target="_blank" class="fa fa-github"></a>
+                </li>
+                <li class="number">(+1) 602-587-6240</li>
+                <li>
+                  <a href="mailto:sketchtosaksham@gmail.com" class="number"
+                    >sketchtosaksham@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const navigation__checkbox = document.querySelector(
+        ".navigation__checkbox"
+      );
+      const navigation__list = document.querySelector(".navigation__list");
+      navigation__list.addEventListener('click', (e) => {
+          if (e.target !== navigation__list) {
+              navigation__checkbox.checked = false;
+          }
+      })
+    </script>
+  </body>
+</html>
