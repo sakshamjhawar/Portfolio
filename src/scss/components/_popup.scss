@@ -13,6 +13,8 @@
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
+    overflow: scroll;
+    
 
     &:target {
         opacity: 1;
@@ -42,7 +44,8 @@
         font-size: 1.7rem;
         width: 80%;
         max-width: 1000px;
-        height: auto;
+        height: 100vh;
+        overflow: scroll;
         @include center;
         background:$color-white; 
         box-shadow: 0 1rem 2rem rgba($color-black, .8);
@@ -129,4 +132,5 @@
     }
 
 }
+
 
